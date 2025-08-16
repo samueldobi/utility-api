@@ -3,13 +3,13 @@ const dotenv = require("dotenv");
 const mailerRoutes = require("./routes/mailerRoutes")
 const cors = require("cors");
 
+dotenv.config();
+
 app.use(cors({
     origin: ["http://localhost:5173", "https://innovadigitaltech.com/"], 
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   }));
-
-dotenv.config();
 
 const app = express();
 
