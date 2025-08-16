@@ -4,7 +4,7 @@ const mailerRoutes = require("./routes/mailerRoutes")
 const cors = require("cors");
 
 app.use(cors({
-    origin: ["http://localhost:5173", "https://your-netlify-app.netlify.app"], 
+    origin: ["http://localhost:5173", "https://innovadigitaltech.com/"], 
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   }));
