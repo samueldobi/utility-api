@@ -27,7 +27,7 @@ module.exports = async (req, res) => {
   
   <!-- Header Section -->
   <div style="background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); border-radius: 16px; padding: 30px; margin-bottom: 20px; text-align: center; box-shadow: 0 8px 32px rgba(0,0,0,0.1);">
-    <div style="width: 60px; height: 60px; background: linear-gradient(45deg, #667eea, #764ba2); border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 24px;">
+    <div style="width: 60px; height: 60px; background: linear-gradient(45deg, #667eea, #764ba2); border-radius: 50%; margin:10px 0; display: flex; align-items: center; justify-content: center; font-size: 24px;">
       📩
     </div>
     <h2 style="color: #2d3748; margin: 0; font-size: 28px; font-weight: 700; letter-spacing: -0.5px;">
@@ -95,7 +95,7 @@ module.exports = async (req, res) => {
     <!-- Footer -->
     <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e2e8f0; text-align: center;">
       <p style="margin: 0; font-size: 13px; color: #718096; font-weight: 500;">
-        🌐 This message was sent from your website's contact form
+        🌐 This message was sent from your Nova website's contact form
       </p>
       <div style="margin-top: 10px; font-size: 11px; color: #a0aec0;">
         Received on ${new Date().toLocaleDateString('en-US', { 
